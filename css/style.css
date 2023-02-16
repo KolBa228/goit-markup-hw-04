@@ -214,13 +214,16 @@ text-decoration: none;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin-bottom: 8px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        background-color: var(--main-white-color);
 }
 
 .specific-text {
     color: var(--p-color);
         line-height: 1.5;
         letter-spacing: 0.02em;
+        background-color: var(--main-white-color);
 }
 
 .team {
@@ -363,6 +366,7 @@ color: var(--acent-color);
 
 .specific-li {
     max-width: 264px;
+    background-color: var(--card-buttons-color);
 }
 
 .choise-title {
@@ -520,6 +524,10 @@ color: var(--acent-color);
     height: 40px;
 }
 
-.team-social {
+.specific-icon {
+    
+}
 
+.specific-svg {
+    
 }
