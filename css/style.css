@@ -254,7 +254,9 @@ text-decoration: none;
 
 .footer {
     background-color: var(--main-text-color);
-    padding: 100px 0;
+    padding: 100px;
+    display: flex;
+    
 }
 
 .ul-address .link {
@@ -524,10 +526,115 @@ color: var(--acent-color);
     height: 40px;
 }
 
-.specific-icon {
-    
+.specific-svg-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
 }
 
 .specific-svg {
-    
+    width: 64px;
+    height: 64px;
 }
+
+.customers-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+        justify-content: center;
+}
+
+.customers-items:not(:last-child) {
+    margin-right: 24px;
+}
+
+.customers-items {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: #8E8F99 1px solid;
+    border-radius: 5%;
+}
+
+.customers-svg {
+    width: 104px;
+    height: 56px;
+    fill: #8E8F99;
+}
+
+.customers-items:hover .customers-svg {
+    fill: var(--acent-color);
+}
+
+.customers-items:hover {
+    border: var(--acent-color) 1px solid;
+}
+
+.customers-items:focus {
+    border: var(--acent-color) 1px solid;
+}
+
+.customers-items:focus .customers-svg {
+    fill: var(--acent-color);
+}
+
+.footer-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-socials-list {
+    display: flex;
+}
+
+.footer-socials-svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+}
+
+.footer-socials-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+.footer-social {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social:not(:last-child) {
+    margin-right: 16px;
+}
+
+.footer-social:hover .footer-socials-link {
+    background-color: #31D0AA;
+}
+
+.footer-social:focus .footer-socials-link {
+    fill: #31D0AA;
+}
+
+.footer-box {
+    margin-right: 120px;
+}
+
