@@ -282,7 +282,7 @@ color: var(--acent-color);
 }
 
 .portfolio-title {
-    width: 500px;
+    width: 500;
     color: var(--main-text-color);
     font-size: 20px;
     line-height: 1.2;
